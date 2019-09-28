@@ -1,0 +1,36 @@
+
+.column {
+    float: left;
+    width: 10%;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 400px;
+    padding: 10px;
+    height: 520px; 
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .poznamka {
+      color: rgb(0, 0, 102);
+      font-style: italic;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 10px;
+    
+  }
+
+  h1{ color: darkblue; font-family: Verdana, Geneva, Tahoma, sans-serif; display:flex; justify-content: center}
+  p {font-size: 15px; color: blue; font-family: Verdana, Geneva, Tahoma, sans-serif; display:flex; justify-content: center;}
+  a { font-size: 20px; display:flex; justify-content: center; font-family: Verdana, Geneva, Tahoma, sans-serif; color: rgb(0, 153, 255)}
